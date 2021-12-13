@@ -1,0 +1,40 @@
+Travail Individuel sur Listes et Tuples
+
+1. Qu'est-ce qu'une liste en Python
+
+Une liste en python est une collection d'éléments stockée dans une variable.
+C'est un peu comme un array dans d'autres langages.
+Un objet list en python est mutable, c'est à dire qu'on peut en changer le contenu, en ajouter, supprimant des éléments.
+Un objet list autorise les doublons.
+
+2. Lister les fonctions utiles pour manipuler les listes
+
+sort(): Sorts the list in ascending order.
+append(): Adds one element to a list.
+index(): Returns the first appearance of a particular value.
+max(list): It returns an item from the list with a max value.
+min(list): It returns an item from the list with a min value.
+len(list): It gives the overall length of the list.
+clear(): Removes all the elements from the list.
+insert(): Adds a component at the required position.
+count(): Returns the number of elements with the required value.
+pop(): Removes the element at the required position.
+remove(): Removes the primary item with the desired value.
+reverse(): Reverses the order of the list.
+copy():  Returns a duplicate of the list.
+
+3. Comment parcourir une liste
+
+On peut utiliser une boucle (for, while) ou bien une compréhension, qui permet d'éxecuter une fonction pour chaque élément
+
+4. Explorer les listes de compréhension
+
+# Ce code me parait intéressant :
+list = [1, 3, 5, 7, 9]
+[print(i) for i in list]
+
+# pour chaque élément, récupéré dans la variable i, on appelle print(i)
+
+5. List vs Tuples
+
+Les Tuples sont équivalent aux List avec la seule différence qu'on ne peut pas en modifier le contenu.
